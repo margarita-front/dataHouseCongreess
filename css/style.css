@@ -1,0 +1,34 @@
+#more {
+    display: none;
+}
+
+h4 {
+    margin-left: 350px;
+}
+
+p {
+    text-align: justify;
+}
+
+.encabezado {
+    display: inline-flex;
+}
+
+.mover {
+    margin-right: 850px;
+}
+
+@media (max-width: 576px) {
+    .encabezado {
+        display: inline-flex;
+    }
+    .encabezado p {
+        font-size: 12px;
+    }
+    .encabezado img {
+        display: none;
+    }
+    .mover {
+        margin-right: 50px;
+    }
+}
